@@ -3,6 +3,7 @@ const sharePanel = document.querySelector('.icons');
 const pannelBottom = document.querySelector('.panel-bottom');
 const userImage = document.querySelector('.image-user');
 const aboutUser = document.querySelector('.about-user');
+const iconShare = document.querySelector('.fa-share')
 
 function addClass (element, classname){
     element.classList.add(classname);
@@ -19,10 +20,12 @@ btnShare.addEventListener('click', ()=> {
         addClass(pannelBottom,'activeBottom');
         addClass(userImage,'hide-data');
         addClass(aboutUser,'hide-data');
+        addClass(iconShare,'activeShare');
     } else {
         addClass(sharePanel,'hide');
         removeClass(pannelBottom,'activeBottom');
         removeClass(userImage,'hide-data');
         removeClass(aboutUser,'hide-data');
+        removeClass(iconShare,'activeShare');
     }
 });
