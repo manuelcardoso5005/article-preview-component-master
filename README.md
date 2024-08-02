@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Pages](https://github.com/manuelcardoso5005/article-preview-component-master?tab=readme-ov-file)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://article-preview-component-master-ten-iota.vercel.app/)
 
 ## My process
 
